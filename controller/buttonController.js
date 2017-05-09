@@ -3,10 +3,10 @@ function ButtonController(view,model){
     this.view = view;
 }
 
-ButtonController.prototype.drawButton = function(value,container,style){
-	this.view.drawButton(value,container,style);
+ButtonController.prototype.drawButton = function(container,style){
+	this.view.drawButton(container,style);
 };
 
 ButtonController.prototype.getButtonEle = function(){
-	this.model.buttonEle;
+	return this.model.buttonEle;
 };

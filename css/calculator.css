@@ -5,6 +5,19 @@ body{
 	background-color: #FBEEE6;
 }
 
+.header {
+     width: 300px;
+     margin: 5px;
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     color: #DC7633; 
+     position: fixed;
+     top: 28%;
+     left: 35%;
+}
+
 .container{
     width: 300px;
     height: auto;    
@@ -13,11 +26,9 @@ body{
     padding: 10px;
     background-color: #EDBB99;
     overflow: hidden;
-    left     : 45%;
-    top      : 45%;
-    margin-left : -100px;
-    margin-top  : -100px;
-    position : absolute; 
+    position: fixed;
+    top: 35%;
+    left: 35%;
 }
 .inputtext{
 	width: 280px;
@@ -27,9 +38,10 @@ body{
     text-align: right;
     background-color: #ffffff;
     overflow: visible;
+    margin-left: 3px;
 }
 .numContainer{
-	width: 50%;;
+	width: 50%;
 	height: auto;
 	overflow: hidden;
 	float: left;

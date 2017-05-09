@@ -4,12 +4,11 @@ function ResultTextController(view,model){
 }
 
 ResultTextController.prototype.drawResultText = function(container,style){
-	this.view.drawResultText.call(this.view,container,style); 
+	this.view.drawResultText(container,style); 
 };
 
 ResultTextController.prototype.setValue = function(value){
-	console.log("set value " + this.model.resultTxtEle.value);
-	this.view.setValue.call(this.view,value); 
+	this.view.setValue(value); 
 };
 
 ResultTextController.prototype.getValue = function(){
